@@ -23,11 +23,11 @@
            <!-- Parte referente a barra de menu do código -->
         <nav id="menu">
             <ul>
-                <li><a href="funcionario.jsp">Funcionários</a></li>
-                <li><a href="ocorrencia.html">Ocorrência</a></li>
+                <li><a href="cadastrarfuncionario.jsp">Cadastrar Funcionários</a></li>
+                <li><a href="funcionario.jsp">Listar Funcionários</a></li>
+                <li><a href="ocorrencia.jsp">Ocorrência</a></li>
                 <li><a href="feriado.jsp">Cadastrar Feriado</a></li>
-                <li><a href="listarferiado.jsp">Listar Feriado</a></li>
-                
+                <li><a href="listarferiado.jsp">Listar Feriado</a></li>            
             </ul>
         </nav>
         <div class="container">

@@ -1,0 +1,73 @@
+/* MODIFICAÇÃO DA FONTE */
+.fontFeriado {
+    font-family: 'Pacifico', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    width: 220px;
+    background-color: #af6768;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7f3b44;
+}
+
+.imobSelect select {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: transparent;
+    width: 233px;
+    color: #474747;
+    padding: 8px 5px 5px 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}
+
+.imobSelect option {
+    height: 30px;
+    border: 1px solid #cbcbcb;
+    padding-left: 17px;
+    padding-top: 12px;
+}
+
+.imobSelect {
+    width: 207px;
+    height: 34px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+td,th,div {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
