@@ -22,7 +22,7 @@ public class Conexao {
         System.out.println("Conectando ao Banco...");
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/rhvirtual", "root", "1013726");
+            conn = DriverManager.getConnection("jdbc:mysql://192.168.56.200/rhvirtual", "root", "1013726");
             System.out.println("Conectado!");
         } catch (ClassNotFoundException e) {
             System.out.println("Classe não encontrada");
